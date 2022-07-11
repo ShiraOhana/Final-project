@@ -1,5 +1,5 @@
 import React from "react";
-
+// Reuseable input
 const FormRow = ({ type, name, value, handleChange, lableText }) => {
   return (
     <div className="form-row">
