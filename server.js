@@ -8,6 +8,7 @@ import connectDB from "./db/connect.js";
 
 // routes
 import authRouter from "./routes/authRoute.js";
+
 //middleware
 import notFoundMiddleware from "./middleware/not-found.js";
 import errorHandlerMiddleware from "./middleware/error-handler.js";
