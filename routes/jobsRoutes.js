@@ -1,4 +1,4 @@
-import express, { Router } from "express";
+import express from "express";
 const router = express.Router();
 
 import {
@@ -14,4 +14,4 @@ router.route("/").post(createJob).get(getAllJobs);
 router.route("/stats").get(showStats);
 router.route("/:id").delete(deleteJob).patch(updateJob);
 
-export default Router;
+export default router;
